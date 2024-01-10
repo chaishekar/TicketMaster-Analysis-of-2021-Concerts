@@ -1,0 +1,208 @@
+/*-- scss:defaults --*/
+$h2-font-size:          1.6rem !default;
+$headings-font-weight:  500 !default;
+
+/*-- scss:defaults --*/
+// Base document colors
+$body-bg: white;
+$body-color: black;
+$link-color: black;
+$link-hover-color: black;
+
+// Base document font
+$body-font-family: 'Open Sans', sans-serif;
+$body-font-size: 1.5rem;
+$body-line-height: 1.5;
+
+// Header color
+$header-bg: #000;
+$header-color: #000;
+
+// Set the desired height of the navbar
+$navbar-height: 10px;
+
+// Nav Bar
+$navbar-bg: #f0f4c3;
+$navbar-color: #f0f4c3;
+$navbar-link-color: #f0f4c3;
+$navbar-link-hover-color: #f0f4c3;
+$navbar-link-hover-bg: #f0f4c3;
+
+.navbar a {
+  color:  black !important;
+}
+// Reduce space between list items in nav bar
+.navbar-nav {
+  li {
+    display: inline-block;
+    margin-right: 0px;
+    padding: 0px;
+  }
+  &:after {
+    content: "";
+    display: inline-block;
+    width: 5%;
+    font-size: 12px;
+  }
+}
+
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: $headings-font-weight;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+}
+
+h2 {
+  font-size: $h2-font-size;
+  font-weight: $headings-font-weight;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: $headings-font-weight;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: $headings-font-weight;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+  font-weight: $headings-font-weight;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+
+}
+
+
+// Base document colors EAEEE9
+$body-bg: white; 
+$body-color: black;
+$link-color: #000;
+$link-hover-color: #000;
+
+
+
+body {
+  margin: 20px;
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh; /* Ensures the content is vertically centered */
+}
+
+h1, h2, h3, h4, h5{
+  text-align: center; /* Center-align text */
+  margin: 10px; /* Add margin to headings and paragraphs */
+}
+
+h2 {
+  text-align: center; /* Center-align text */
+  color: #000; /* Set the font color to #838996 */
+  font-size: 1.0rem; /* Set the font size to 1.6rem */
+  font-weight: $headings-font-weight; /* Remove bold styling */
+}
+
+h3 {
+  text-align: center; /* Center-align text */
+  color: #000; /* Set the font color to #838996 */
+  font-size: 1.0rem; /* Set the font size to 1.6rem */
+  font-weight: $headings-font-weight; /* Remove bold styling */
+}
+
+h4 {
+  text-align: center; /* Center-align text */
+  color: #000; /* Set the font color to #838996 */
+  font-size: 1.0rem; /* Set the font size to 1.6rem */
+  font-weight: $headings-font-weight; /* Remove bold styling */
+}
+
+
+h5 {
+  text-align: justify; /* Center-align text */
+  color: #000; /* Set the font color to #838996 */
+  font-size: 1.0rem; /* Set the font size to 1.6rem */
+  font-weight: $headings-font-weight; /* Remove bold styling */
+}
+
+h6 {
+  text-align: justify; /* Center-align text */
+  color: #000; /* Set the font color to #838996 */
+  font-size: 1.0rem; /* Set the font size to 1.6rem */
+  font-weight: $headings-font-weight; /* Remove bold styling */
+}
+
+.content-container {
+  border: 1px solid #000;
+  // padding-left: 1.5em;
+  // padding-right: 1.5em;
+
+}
+
+.content-container .listing-pagination {
+  display: none;
+}
+
+.top-story {
+  max-width: 1050px;
+  margin: 0 auto;
+  // margin-bottom: 1em; 
+  box-sizing: border-box;
+  height: 100%;
+  display: flex; 
+  align-items: center;
+}
+
+.top-story img {
+  max-width: 100%;
+  max-height:100%;
+  float: right;
+}
+
+
+.top-story-text {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0;
+  width: 100%; 
+
+}
+
+.top-story-text h2 {
+  margin-top: 1.5rem;
+}
+
+.top-story-img p {
+  margin-bottom: 0;
+}
+
+
+.image-container img {
+  width: 100%; /* Set the width to 100% to make the image fill its container */
+  height: 100%; /* Auto height to maintain the image's aspect ratio */
+}
+
+
+.plot-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px; /* Adjust the margin as needed */
+}
