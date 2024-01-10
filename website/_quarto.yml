@@ -16,7 +16,7 @@ website:
     background: transparent
     pinned: true
     left:
-      - file: index.qmd
+      - file: "https://chaishekar.github.io/Portfolio/"
         text: Home
       - file: "ticketmaster.qmd#intro"
         text: Introduction
